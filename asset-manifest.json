@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-v4.0/static/css/main.4b698047.css",
+    "main.css": "/Portfolio-v4.0/static/css/main.b65f84e8.css",
     "main.js": "/Portfolio-v4.0/static/js/main.cb7fcb98.js",
     "static/media/ttt.jpg": "/Portfolio-v4.0/static/media/ttt.dfc70db4b531aa94ba8b.jpg",
     "static/media/nubelson-fernandes--Xqckh_XVU4-unsplash-2.jpg": "/Portfolio-v4.0/static/media/nubelson-fernandes--Xqckh_XVU4-unsplash-2.b7c2674e89b695f08454.jpg",
@@ -9,11 +9,11 @@
     "static/media/sunnyside.jpg": "/Portfolio-v4.0/static/media/sunnyside.bf9b661666651944d3d6.jpg",
     "static/media/wow.jpg": "/Portfolio-v4.0/static/media/wow.d35c3d50f3b83205b08d.jpg",
     "index.html": "/Portfolio-v4.0/index.html",
-    "main.4b698047.css.map": "/Portfolio-v4.0/static/css/main.4b698047.css.map",
+    "main.b65f84e8.css.map": "/Portfolio-v4.0/static/css/main.b65f84e8.css.map",
     "main.cb7fcb98.js.map": "/Portfolio-v4.0/static/js/main.cb7fcb98.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b698047.css",
+    "static/css/main.b65f84e8.css",
     "static/js/main.cb7fcb98.js"
   ]
 }
