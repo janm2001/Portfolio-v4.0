@@ -62,7 +62,7 @@ const Projects = () => {
               <div className={styles.btn}>Javascript <SiJavascript className={styles.btnIcon}/></div>
             </div>
            <p >
-              Responsive NBA website where you can buy the newest NBA gear, you can checkout biggest NBA news, and read about your favorite team and about the legends of this sport.
+              Responsive NBA website where you can buy the newest NBA gear, you can check out the biggest NBA news, and read about your favorite team and about the legends of this sport.
             </p>
             
            </div>

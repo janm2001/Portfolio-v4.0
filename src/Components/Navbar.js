@@ -21,7 +21,7 @@ const Navbar = () => {
 
             <div className={style.links}>
                 <Link href="#app">Home</Link>
-                <Link href="#project">Project</Link>
+                <Link href="#project">Projects</Link>
                 <Link href="#about">About</Link>
                 <Link href="#contact">Contact</Link>
 
@@ -54,10 +54,13 @@ const Navbar = () => {
           <ListItemText inset><Link href='#app'>Home</Link></ListItemText>
         </MenuItem>
         <MenuItem>
-          <ListItemText inset><Link href='#project'>Project</Link></ListItemText>
+          <ListItemText inset><Link href='#project'>Projects</Link></ListItemText>
         </MenuItem>
         <MenuItem>
           <ListItemText inset><Link href='#about'>About</Link></ListItemText>
+        </MenuItem>
+        <MenuItem>
+          <ListItemText inset><Link href='#contact'>Contact</Link></ListItemText>
         </MenuItem>
         <MenuItem>
           <ListItemText inset><Link target="_blank"  href='https://www.linkedin.com/in/jan-mackovic-000330198/'><AiFillLinkedin className={style.linkedin}/></Link></ListItemText>

@@ -19,7 +19,7 @@ const AboutMe = () => {
         <h1>About Me</h1>
         <div className={styles.headlineBorder}></div>
         <p>
-          Here you will find more about me, what I do, what is my passion and my
+          Here you will find more about me, what I do, what my passion is and my
           skills in programming
         </p>
       </div>
@@ -27,7 +27,7 @@ const AboutMe = () => {
         <div className={styles.info}>
           <h3>Get to know me!</h3>
           <p>
-            My name is <b>Jan Mackovic</b> and I'm coming from <b>Croatia</b>,
+            My name is <b>Jan Mackovic</b> and I come from <b>Croatia</b>,
             I am a <b>Front-end Web Developer</b> building websites since 2017.
           </p>
           <p>
@@ -40,7 +40,7 @@ const AboutMe = () => {
             concepts and technologies with ease. I am always eager to take on
             new challenges and <b>continuously improve myself.</b>{" "}
           </p>
-          <p>I am currently learning <b>backend frameworks</b>(Node.js,GraphQl) to become a Full stack Web Developer</p>
+          <p>I am currently learning <b>backend frameworks</b>(Node.js,GraphQl) to become a Full stack Web Developer.</p>
         </div>
         <div className={styles.skills}>
           <h3>My Skills:</h3>
