@@ -12,6 +12,7 @@ import { AiFillGitlab } from "react-icons/ai";
 import { SiPython } from "react-icons/si";
 import {SiTailwindcss} from "react-icons/si";
 import { HiTerminal } from "react-icons/hi";
+
 const AboutMe = () => {
   return (
     <div id="about" className={styles.container}>
