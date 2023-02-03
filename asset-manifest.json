@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.a9bbb019.css",
-    "main.js": "/react-gh-pages/static/js/main.742a37cb.js",
-    "static/media/ttt.jpg": "/react-gh-pages/static/media/ttt.dfc70db4b531aa94ba8b.jpg",
-    "static/media/nubelson-fernandes--Xqckh_XVU4-unsplash-2.jpg": "/react-gh-pages/static/media/nubelson-fernandes--Xqckh_XVU4-unsplash-2.b7c2674e89b695f08454.jpg",
-    "static/media/nba.jpg": "/react-gh-pages/static/media/nba.c07fa017c8fc60f14b63.jpg",
-    "static/media/formula1.jpg": "/react-gh-pages/static/media/formula1.da0299d3e62cba23c617.jpg",
-    "static/media/wow.jpg": "/react-gh-pages/static/media/wow.d35c3d50f3b83205b08d.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.a9bbb019.css.map": "/react-gh-pages/static/css/main.a9bbb019.css.map",
-    "main.742a37cb.js.map": "/react-gh-pages/static/js/main.742a37cb.js.map"
+    "main.css": "/Portfolio-v4.0/static/css/main.d8bb9457.css",
+    "main.js": "/Portfolio-v4.0/static/js/main.742a37cb.js",
+    "static/media/ttt.jpg": "/Portfolio-v4.0/static/media/ttt.dfc70db4b531aa94ba8b.jpg",
+    "static/media/nubelson-fernandes--Xqckh_XVU4-unsplash-2.jpg": "/Portfolio-v4.0/static/media/nubelson-fernandes--Xqckh_XVU4-unsplash-2.b7c2674e89b695f08454.jpg",
+    "static/media/nba.jpg": "/Portfolio-v4.0/static/media/nba.c07fa017c8fc60f14b63.jpg",
+    "static/media/formula1.jpg": "/Portfolio-v4.0/static/media/formula1.da0299d3e62cba23c617.jpg",
+    "static/media/wow.jpg": "/Portfolio-v4.0/static/media/wow.d35c3d50f3b83205b08d.jpg",
+    "index.html": "/Portfolio-v4.0/index.html",
+    "main.d8bb9457.css.map": "/Portfolio-v4.0/static/css/main.d8bb9457.css.map",
+    "main.742a37cb.js.map": "/Portfolio-v4.0/static/js/main.742a37cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9bbb019.css",
+    "static/css/main.d8bb9457.css",
     "static/js/main.742a37cb.js"
   ]
 }
