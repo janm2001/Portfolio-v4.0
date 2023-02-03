@@ -1,0 +1,91 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-weight: 700;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+.social a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.links a:hover {
+  padding: 5px;
+  color: rgb(196, 7, 7);
+  border-bottom: 2px solid rgb(196, 7, 7);
+}
+
+.wrap .links {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.smallerDisplay{
+  display: none;
+}
+
+@media(max-width:968px){
+
+  .wrap{
+      display: none;
+  }
+  .links{
+      display: none;
+
+  }
+
+  .smallerDisplay button{
+      background-color: transparent;
+      border: none;
+
+  }
+
+  .smallerDisplay{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      
+ 
+  }
+
+  .smallerDisplay button svg{
+      color: #fff;
+      font-size: 1.5rem;
+  }
+
+
+
+  .linksSmall{
+      display: block;
+      transition: 0,5s;
+      animation: fadeIn 1s;
+  }
+
+  .linksSmall a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+  }
+}

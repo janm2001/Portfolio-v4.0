@@ -1,0 +1,49 @@
+.about{
+    background: url('../../assets/img/nubelson-fernandes--Xqckh_XVU4-unsplash-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrap{
+    line-height: 1.5;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
+
+.wrap p{
+    
+    font-size: 1.5rem;
+    color: rgb(200, 199, 199);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.wrap span{
+    color: #d40202;
+}
+
+.btn{
+    background: #d40202 !important;
+box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8), 0px 0px 8px rgba(69, 123, 157, 0.26);
+border-radius: 4px;
+color: rgb(255, 255, 255) !important;
+padding: 8px 20px !important;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 700;
+gap: 5px;
+}
+
+.btn:hover{
+    background: rgb(255, 0, 0);
+}
