@@ -8,6 +8,8 @@ import { SiJavascript } from "react-icons/si";
 import { SiMaterialui } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiGriddotai } from "react-icons/si";
+import { DiPostgresql } from "react-icons/di";
+import { DiJava } from "react-icons/di";
 
 const Projects = () => {
   return (
@@ -62,38 +64,41 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className={styles.nba}>
+        <div className={styles.sas}>
           <div className={styles.formulaInfo}>
-            <h3 className={styles.title}>NBA</h3>
+            <h3 className={styles.title}>SpotASpot</h3>
 
             <div className={styles.paragraph}>
               <div className={styles.tech}>
                 <div className={styles.btn}>
-                  Bootstrap <BsFillBootstrapFill className={styles.btnIcon} />{" "}
+                  MaterialUi <SiMaterialui className={styles.btnIcon} />{" "}
                 </div>
                 <div className={styles.btn}>
-                  Flexbox <CgDisplayFlex className={styles.btnIcon} />
+                  Java <DiJava className={styles.btnIcon} />
                 </div>
                 <div className={styles.btn}>
-                  Javascript <SiJavascript className={styles.btnIcon} />
+                  PostreSql <DiPostgresql className={styles.btnIcon} />
+                </div>
+                <div className={styles.btn}>
+                  ReactJs(NextJs) <SiReact className={styles.btnIcon} />
                 </div>
               </div>
               <p>
-                Responsive NBA website where you can buy the newest NBA gear,
-                you can check out the biggest NBA news, and read about your
-                favorite team and about the legends of this sport.
+                Project that I have done with my colleagues for a college
+                competition. It is an event web application where organizers can
+                create events and users can find it and share it with friends.
               </p>
             </div>
 
             <div className={styles.links}>
               <Link
-                href=" https://janm2001.github.io/nba2.0/"
+                href="https://www.youtube.com/watch?v=hMmxGrBKNew"
                 className={styles.btnLink}
               >
-                Visit Website
+                Visit Website Video
               </Link>{" "}
               <Link
-                href="https://github.com/janm2001/nba2.0"
+                href="https://github.com/janm2001/SpotASpot"
                 className={styles.btnLink}
               >
                 Code <AiFillGithub className={styles.btnLinkIcon} />
@@ -126,14 +131,17 @@ const Projects = () => {
                 World of Warcraft lovers where you can find information about
                 expansions, classes and news...
               </p>
-              <p style={{color:'red'}}>Work in Progress</p>
+              <p style={{ color: "red" }}>Work in Progress</p>
             </div>
 
             <div className={styles.links}>
               <Link href="#" className={styles.btnLink}>
                 Visit Website
               </Link>{" "}
-              <Link href="https://github.com/janm2001/WoW-2.0" className={styles.btnLink}>
+              <Link
+                href="https://github.com/janm2001/WoW-2.0"
+                className={styles.btnLink}
+              >
                 Code <AiFillGithub className={styles.btnLinkIcon} />
               </Link>
             </div>

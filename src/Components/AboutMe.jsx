@@ -10,7 +10,7 @@ import { SiBootstrap } from "react-icons/si";
 import { SiMaterialui } from "react-icons/si";
 import { AiFillGitlab } from "react-icons/ai";
 import { SiPython } from "react-icons/si";
-import {SiTailwindcss} from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 import { HiTerminal } from "react-icons/hi";
 
 const AboutMe = () => {
@@ -28,11 +28,11 @@ const AboutMe = () => {
         <div className={styles.info}>
           <h3>Get to know me!</h3>
           <p>
-            My name is <b>Jan Mackovic</b> and I come from <b>Croatia</b>,
-            I am a <b>Front-end Web Developer</b> building websites since 2017.
+            My name is <b>Jan Mackovic</b> and I come from <b>Croatia</b>, I am
+            a <b>Front-end Web Developer</b> building websites since 2017.
           </p>
           <p>
-            Some of my <b>hobbies</b> are: running, learning French and creating
+            Some of my <b>hobbies</b> are: cycling, learning French and creating
             some interesting <b>Projects</b> to expand my developers knowledge.
           </p>
           <p>
@@ -41,7 +41,10 @@ const AboutMe = () => {
             concepts and technologies with ease. I am always eager to take on
             new challenges and <b>continuously improve myself.</b>{" "}
           </p>
-          <p>I am currently learning <b>backend frameworks</b>(Node.js,GraphQl) to become a Full stack Web Developer.</p>
+          <p>
+            I am currently learning <b>backend frameworks</b>(Node.js,GraphQl)
+            to become a Full stack Web Developer.
+          </p>
         </div>
         <div className={styles.skills}>
           <h3>My Skills:</h3>
@@ -75,18 +78,16 @@ const AboutMe = () => {
             </div>
             <div className={styles.box}>
               <h6>Terminal</h6> <HiTerminal />
-              </div>
-              <div className={styles.box}>
+            </div>
+            <div className={styles.box}>
               <h6>React Native</h6> <SiReact />
             </div>
             <div className={styles.box}>
               <h6>Tailwind</h6> <SiTailwindcss />
-              
             </div>
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

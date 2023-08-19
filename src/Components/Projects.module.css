@@ -1,385 +1,356 @@
-
-
-.formula .backgroundImg{
-    flex: 1;
-    background: url("../../assets/img/formula1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
+.formula .backgroundImg {
+  flex: 1;
+  background: url("../../assets/img/formula1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
 
-.wow .backgroundImg{
-    flex: 1;
-    background: url("../../assets/img/wow.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
+.wow .backgroundImg {
+  flex: 1;
+  background: url("../../assets/img/wow.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
 
-.ttt .backgroundImg{
-    flex: 1;
-    background: url("../../assets/img/ttt.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
+.ttt .backgroundImg {
+  flex: 1;
+  background: url("../../assets/img/ttt.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
 
-.nba .backgroundImg{
-    flex: 1;
-    background: url("../../assets/img/nba.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
+.sas .backgroundImg {
+  flex: 1;
+  background: url("../../assets/img/events.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
 
-.ss .backgroundImg{
-    flex: 1;
-    background: url("../../assets/img/sunnyside.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
+.ss .backgroundImg {
+  flex: 1;
+  background: url("../../assets/img/sunnyside.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
 
-.projectsInfo{
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-    font-size: 1.5rem;
+.projectsInfo {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.5rem;
 }
 
-.container{
-    background-color: #121212;
-    color: #fff;
-    padding: 100px 0 50px 0;
-    line-height: 1.7;
+.container {
+  background-color: #121212;
+  color: #fff;
+  padding: 100px 0 50px 0;
+  line-height: 1.7;
 }
 
-.projects{
-    margin-top: 125px;
-    
+.projects {
+  margin-top: 125px;
 }
 
-.tech{
-    margin: 15px 0;
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    justify-content: center;
+.tech {
+  margin: 15px 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
-.btn{
-    background: #d40202 !important;
-box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8), 0px 0px 8px rgba(69, 123, 157, 0.26);
-border-radius: 4px;
-color: rgb(255, 255, 255) !important;
-padding: 5px 10px !important;
-display: flex;
-gap: 10px;
+.btn {
+  background: #d40202 !important;
+  box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8),
+    0px 0px 8px rgba(69, 123, 157, 0.26);
+  border-radius: 4px;
+  color: rgb(255, 255, 255) !important;
+  padding: 5px 10px !important;
+  display: flex;
+  gap: 10px;
 }
 
-.nba .btn{
-    background: #1702d4 !important;
-box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8), 0px 0px 8px rgba(69, 123, 157, 0.26);
-border-radius: 4px;
-color: rgb(255, 255, 255) !important;
-padding: 5px 10px !important;
-display: flex;
-gap: 10px;
+.sas .btn {
+  background: #06003c !important;
+  box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8),
+    0px 0px 8px rgba(69, 123, 157, 0.26);
+  border-radius: 4px;
+  color: rgb(255, 255, 255) !important;
+  padding: 5px 10px !important;
+  display: flex;
+  gap: 10px;
 }
 
-.ttt .btn{
-    background: #1702d4 !important;
-box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8), 0px 0px 8px rgba(69, 123, 157, 0.26);
-border-radius: 4px;
-color: rgb(255, 255, 255) !important;
-padding: 5px 10px !important;
-display: flex;
-gap: 10px;
+.ttt .btn {
+  background: #06003c !important;
+  box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8),
+    0px 0px 8px rgba(69, 123, 157, 0.26);
+  border-radius: 4px;
+  color: rgb(255, 255, 255) !important;
+  padding: 5px 10px !important;
+  display: flex;
+  gap: 10px;
 }
 
-.btnLink{
-    background: #fff  !important;
-box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8), 0px 0px 8px rgba(69, 123, 157, 0.26);
-border-radius: 4px;
-color: #000 !important;
-padding: 8px 20px !important;
-
-
-
+.btnLink {
+  background: #fff !important;
+  box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8),
+    0px 0px 8px rgba(69, 123, 157, 0.26);
+  border-radius: 4px;
+  color: #000 !important;
+  padding: 8px 20px !important;
 }
 
-.links{
-    
-    display: flex;
-    gap: 20px;
+.links {
+  display: flex;
+  gap: 20px;
 }
 
-.links a{
-    text-decoration: none;
+.links a {
+  text-decoration: none;
 }
 
 .btnLink a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
-
-
-.btnIcon{
-    margin-top: 5px;
-
+.btnIcon {
+  margin-top: 5px;
 }
 
-
-
-.headlineBorder{
-    border-bottom: 7px solid #d40202;
-    width: 5%;
-    border-radius: 10px;
-    border-width: 50%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+.headlineBorder {
+  border-bottom: 7px solid #d40202;
+  width: 5%;
+  border-radius: 10px;
+  border-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
-.formula{
-
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    height: 55vh;
-    background-color: #5b0303;
-    
-    
+.formula {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 55vh;
+  background-color: #5b0303;
 }
 
-.nba{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    height: 55vh;
-    background-color: #03165b;
+.sas {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 55vh;
+  background-color: #090131;
 }
 
-.wow{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    height: 55vh;
-    background-color: #2a1212;
+.wow {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 55vh;
+  background-color: #5b0303;
 }
 
-.ttt{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    height: 55vh;
-    background-color: #060251;
+.ttt {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 55vh;
+  background-color: #090131;
 }
 
-.ss{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    height: 55vh;
-    background-color: #311100;
+.ss {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 55vh;
+  background-color: #5b0303;
 }
 
-.formulaInfo{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+.formulaInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.formulaInfo{
-    padding:30px 0;
+.formulaInfo {
+  padding: 30px 0;
 }
 
-.paragraph{
-    width: 80%;
-    margin: 0 auto;
+.paragraph {
+  width: 80%;
+  margin: 0 auto;
 }
 
-
-@media(max-width:968px){
-
-
-    
-    .btn{
-        background: #d40202 !important;
-    box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8), 0px 0px 8px rgba(69, 123, 157, 0.26);
+@media (max-width: 968px) {
+  .btn {
+    background: #d40202 !important;
+    box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8),
+      0px 0px 8px rgba(69, 123, 157, 0.26);
     border-radius: 4px;
     color: rgb(255, 255, 255) !important;
     padding: 5px 10px !important;
     display: flex;
     gap: 5px;
-    
+
     font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    }
-    
-    .nba .btn{
-        background: #1702d4 !important;
-    box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8), 0px 0px 8px rgba(69, 123, 157, 0.26);
+  }
+
+  .sas .btn {
+    background: #06003c !important;
+    box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8),
+      0px 0px 8px rgba(69, 123, 157, 0.26);
     border-radius: 4px;
     color: rgb(255, 255, 255) !important;
     padding: 5px 10px !important;
     font-size: 12px;
     gap: 10px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+  }
 
-    .ttt .btn{
-        background: #1702d4 !important;
-    box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8), 0px 0px 8px rgba(69, 123, 157, 0.26);
+  .ttt .btn {
+    background: #06003c !important;
+    box-shadow: 0px 0px 4px rgba(69, 123, 157, 0.8),
+      0px 0px 8px rgba(69, 123, 157, 0.26);
     border-radius: 4px;
     color: rgb(255, 255, 255) !important;
     padding: 5px 10px !important;
     font-size: 12px;
     gap: 10px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+  }
 
-    .formula .backgroundImg{
-        
-        background: url("../../assets/img/formula1.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        width: 100%;
-        height: 50vh !important;
-        
-    }
-    
-    .nba .backgroundImg{
-        
-        background: url("../../assets/img/nba.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        width: 100%;
-        height: 50vh !important;
-        
-    }
+  .formula .backgroundImg {
+    background: url("../../assets/img/formula1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 50vh !important;
+  }
 
-    .wow .backgroundImg{
-        
-        background: url("../../assets/img/wow.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        width: 100%;
-        height: 50vh !important;
-        
-    }
-    
-    .ttt .backgroundImg{
-        
-        background: url("../../assets/img/ttt.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        width: 100%;
-        height: 50vh !important;
-        
-    }
+  .sas .backgroundImg {
+    background: url("../../assets/img/events.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 50vh !important;
+  }
 
-    .ss .backgroundImg{
-        
-        background: url("../../assets/img/sunnyside.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        width: 100%;
-        height: 50vh !important;
-        
-    }
+  .wow .backgroundImg {
+    background: url("../../assets/img/wow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 50vh !important;
+  }
 
-    .projectsInfo{
-        text-align: center;
-        width: 60%;
-        margin: 0 auto;
-        font-size: 1.5rem;
-    }
+  .ttt .backgroundImg {
+    background: url("../../assets/img/ttt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 50vh !important;
+  }
 
-    .formula{
+  .ss .backgroundImg {
+    background: url("../../assets/img/sunnyside.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 50vh !important;
+  }
 
-        width: 100%;
-        margin: 1rem auto;
-        display: flex;
-        flex-direction: column;
-        height: 80vh;
-        background-color: #5b0303;
-        
-        
-    }
-    
-    .nba{
-       width:100%;
-        margin: 1rem auto;
-        display: flex;
-        height: 80vh;
-        background-color: #03165b;
-        flex-direction: column-reverse;
-    }
+  .projectsInfo {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
 
-    .wow{
+  .formula {
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-color: #5b0303;
+  }
 
-        width: 100%;
-        margin: 1rem auto;
-        display: flex;
-        height: 80vh;
-        background-color: #2a1212;
-        flex-direction: column;
-        
-        
-    }
-    
-    .ttt{
-       width: 100%;
-        margin: 1rem auto;
-        display: flex;
-        height: 80vh;
-        background-color: #060251;
-        flex-direction: column-reverse;
-    }
+  .sas {
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    height: 80vh;
+    background-color: #03165b;
+    flex-direction: column-reverse;
+  }
 
-    .ss{
-        width: 100%;
-         margin: 1rem auto;
-         display: flex;
-         height: 80vh;
-         background-color: #311100;
-         flex-direction: column-reverse;
-     }
+  .wow {
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    height: 80vh;
+    background-color: #2a1212;
+    flex-direction: column;
+  }
 
-    .btnIcon{
-        margin:0;
-    
-    }
+  .ttt {
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    height: 80vh;
+    background-color: #060251;
+    flex-direction: column-reverse;
+  }
+
+  .ss {
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    height: 80vh;
+    background-color: #311100;
+    flex-direction: column-reverse;
+  }
+
+  .btnIcon {
+    margin: 0;
+  }
 }
 
-@media(min-width:1668px){
-    .formulaInfo{
-        font-size: 1.5rem;
-    }
+@media (min-width: 1668px) {
+  .formulaInfo {
+    font-size: 1.5rem;
+  }
 
-    .formulaInfo p{
-        width: 60%;
-        margin: 0 auto;
-        text-align: center;
-    }
+  .formulaInfo p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
